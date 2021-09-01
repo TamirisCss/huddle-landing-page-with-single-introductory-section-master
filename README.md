@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/site-using-sass-and-flexbox-YXGokgnsV
 - Live Site URL: https://tamiriscss.github.io/huddle-landing-page-with-single-introductory-section-master/
 
 ## My process
