@@ -9,17 +9,20 @@
   margin: 0rem 3rem;
 }
 
-.size {
-  height: 10vh;
-}
-
 body {
-  height: 80vh;
   font-family: 'Open Sans', sans-serif;
   background-image: url(/images/bg-desktop.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #674baf;
+}
+
+header {
+  padding: 2rem 0rem 4rem 0rem;
+}
+
+header img {
+  width: 12rem;
 }
 
 main {
@@ -29,15 +32,19 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+main img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 main .huddle-info {
   margin-left: 2rem;
   color: white;
   font-family: "Poppins", sans-serif;
+  padding-top: 3rem;
 }
 
 main .huddle-info h1, main .huddle-info p {
