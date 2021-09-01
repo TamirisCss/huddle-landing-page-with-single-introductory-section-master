@@ -14,6 +14,7 @@ body {
   background-image: url(/images/bg-desktop.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   background-color: #674baf;
 }
 
@@ -22,7 +23,7 @@ header {
 }
 
 header img {
-  width: 12rem;
+  width: 10rem;
 }
 
 main {
@@ -68,12 +69,37 @@ main .huddle-info button:hover {
   background: #e882e8;
 }
 
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 1rem;
+}
+
+.social i {
+  border: 1px solid white;
+  padding: .5rem;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.social i:hover {
+  color: #e882e8;
+  border: 1px solid #e882e8;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

@@ -16,12 +16,13 @@ body {
     background-image: url(/images/bg-desktop.svg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     background-color: $violet;
 }
 header {
     padding: 2rem 0rem 4rem 0rem;
     img {
-        width: 12rem;
+        width: 10rem;
     }
 }
 main {
@@ -56,9 +57,27 @@ main {
 
 
 //footer
+.social {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    i {
+        border: 1px solid white;
+        padding: .5rem;
+        border-radius: 50%;
+        color: white;
+        cursor: pointer;
+        transition: all .3s ease-in-out;
+        &:hover {
+            color: $soft-magenta;
+            border: 1px solid $soft-magenta;
+        }
+    }
+    
+}
 .attribution { 
     font-size: 11px; text-align: center; 
     a {
-        color: hsl(228, 45%, 44%);
+        color: white;
     }
 }
